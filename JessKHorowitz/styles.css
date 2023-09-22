@@ -1,0 +1,178 @@
+/*
+Font color: #3C6255 
+Nav background: #D0C9C0;
+Nav Hover: #6D8B74;
+background: ##EDE6DB;
+*/
+
+
+
+
+.main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: repeat(8, auto);
+	background: #EDE6DB;
+	color: #3C6255;
+	padding: 1rem;
+	grid-auto-rows: 200px;
+	row-gap: 10px;
+}
+.bottom{
+	background: #EDE6DB;
+	color: #3C6255;
+	padding: 1rem;
+}
+
+
+
+.navbar{
+	display: flex;
+	background: #D0C9C0;
+	justify-content: flex-start;
+	gap:10px;s
+	height:100px;	
+	padding: 10px;
+}
+
+
+.navlinks:hover{
+	background: #6D8B74;
+
+}
+
+/* Index*/
+#summary{
+	grid-row: 2 ;
+	grid-column: span 4;
+}
+
+
+/* aboutme */
+
+#headshot{
+	float: left;
+	width: 200px;
+	margin:10px;
+}
+#babymack{
+	float: right;
+	width: 200px;
+	margin:10px;
+}
+
+
+#me{
+	grid-column-start: 1;
+	grid-column: span 3;
+	grid-row: span 1;
+}
+#macro{
+	grid-column-start: 4;
+	grid-row:span 2;
+	border-style: solid;
+	padding:10px;
+}
+#macName{
+	font-style:italic ;
+}
+
+
+
+
+
+
+/*resume Page - Name/Heading section*/
+#resumeName{
+	float: left;
+	margin: 15px;
+	align-items: center;
+}
+
+/*resume Page - Formats the Work Experience header*/
+#resumeWorkSection{
+	text-align: center;
+	grid-column: span 4 ;
+}
+
+/*resume Page - Grid Formatting*/
+/* Top 1 row, work 1 row, skills/ed 1 row */
+.resumetop{
+	grid-column: span 4;
+	grid-row: span 1;
+	margin: 10px;
+
+}
+.skills{
+	
+	grid-column-start: 1;
+	padding: 10px;
+	margin-left: 30px;
+	
+
+}
+.ed{
+	grid-column: span 2;
+	padding: 10px;
+	margin-right: 10px;
+}
+ .work{
+	margin: 10px;
+	grid-row: span 4;
+	grid-column: span 4;
+	
+	display:grid;
+	grid-template-columns: 4;
+	grid-template-rows: 4;
+	row-gap: 25px;
+}
+
+/*resume Page - Grid Formatting of job details*/
+
+.companyDetails{
+	grid-column: span 1;
+	align-self: center;
+	}
+.experience{
+	
+	grid-column: span 3;
+	grid-column-start: 2;
+}
+#agencyExperience{
+	grid-row: span 2;
+}	
+
+/* Resume Page font formatting*/
+
+.role{
+	font-style: italic;
+	padding: 5px;
+}
+.company{
+	font-size: 1.2em;
+	font-weight:bold ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom{
+
+}
+
+
+.copyright {
+  color: #6D8B74;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
